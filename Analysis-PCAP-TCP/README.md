@@ -14,22 +14,23 @@ B.2. As the code is ran, I keep track of two variables, acked_seq_nums and sent_
 iii. analysis_pcap_tcp.py is a function that uses the path to the pcap file as a parameter. When given the correct path to a pcap.file, it will print the following information (same format shown):
 
 -------------------------------
-Flow #
-Source Port
-Source IP
-Destination Port
-Destination IP
+Flow #  
+Source Port  
+Source IP  
+Destination Port  
+Destination IP  
 
-Two transactions that contain:
-Sequence Number
-ACK Number
-Receiver Window Size
+Two transactions that contain:  
+Sequence Number  
+ACK Number  
+Receiver Window Size  
 
-Total Bytes
-Total Duration
-Throughput 
+Total Bytes  
+Total Duration  
+Throughput  
 
-First 3 Congestion Window Sizes
-Retransmission Due to Timeout
-Retransmission Due to Triple ACK
+First 3 Congestion Window Sizes  
+Retransmission Due to Timeout  
+Retransmission Due to Triple ACK  
+
 -------------------------------
